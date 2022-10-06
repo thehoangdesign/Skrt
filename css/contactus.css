@@ -1,0 +1,225 @@
+@charset "utf-8";
+/*CSS Document*/
+:root {
+    --main-color: #18FFBB;
+    --box-shadow:0 0 4px rgb(0, 0, 0, 0.3);
+   
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+
+}
+
+body {
+    background-color: black;
+    font-size: 120%;
+}
+
+@font-face {
+    font-family: titlefont;
+    src: url(../Font/head-turner-display-font-1/FONT/Head-Turner.ttf);
+}
+
+@font-face {
+    font-family: bodyfont;
+    src: url(../Font/Josefin_Sans/static/JosefinSans-Regular.ttf )
+}
+
+*,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    
+  }
+
+
+
+  .contactus_picture img {
+    width: 100%;
+    z-index: 11;}
+
+  .content_contactus {
+    position: relative;
+
+  }
+    .navi .navlink a{
+    color: white;
+  }
+  .navi .navicon .icons{
+    stroke: white;
+  }
+  .navi .navicon .heart{
+    fill: white;
+  }
+
+
+ .heading_contactus {
+   
+    text-align: center;
+    font-family: titlefont;
+    color: #18FFBB;
+    margin-bottom: 2.5rem;
+  }
+
+  .subheading_contactus {
+    color: #18FFBB;
+    font-family: bodyfont;
+    text-align: center;
+  }
+
+  .contactus_infordetails {
+    font-family: bodyfont;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+
+  }
+
+  .getdirection_contactus {
+    color: #18FFBB;
+    text-decoration: underline;
+    text-align: center;
+    
+  }
+
+  .pattern {
+    font-family: Head-Turner;
+    /* font-weight: normal; */
+    font-size: 300px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.2;
+    position: absolute;
+  bottom: 50%;
+    right: 0;
+   
+
+  }
+
+  .pattern2 {
+    font-family: Head-Turner;
+    /* font-weight: normal; */
+    font-size: 300px;
+
+    color: #fff;
+    opacity: 0.2;
+    position: absolute;
+    z-index: 1;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  h1.heading_contactus:before {
+    content: "Contact Us";
+  }
+
+  
+  #sendingmessage_form h1.heading_contactus:before {
+    content: "Put Your Message";
+  }
+
+  #sendingmessage_form h1.heading_contactus {
+    margin-bottom: 2.5rem;
+  }
+
+  .skrtoverlay:before {
+    width: 100%;
+  }
+
+  .skrtoverlay h1:before {
+    content: "Let's Talk";
+  }
+
+  .skrtoverlay {
+   padding-bottom: 0;
+  }
+  div.content_contactus_form-devide {
+ padding-bottom: 2.5rem;
+}
+
+@media (min-width: 1200px){
+    /* Something is Fixed */
+    .product_comprehen {
+        padding: 2.5rem 5%;
+        margin-bottom: 2.5rem;
+    }
+
+    .content_contactus {
+        margin-top: 3rem;
+    }
+
+    div.content_contactus_form-devide {
+        margin-top: 5rem;
+    }
+
+
+    #sendingmessage_form {
+      margin-top: 5rem ;
+    }
+
+    .pattern2 {
+      font-family: Head-Turner;
+      /* font-weight: normal; */
+      font-size: 300px;
+      color: #fff;
+      opacity: 0.2;
+      position: absolute;
+      z-index: 1;
+      bottom: -5rem;
+      left: -10rem;
+  }
+
+   
+
+
+
+}
+
+/* lg*/
+
+@media (max-width: 1199.9px) and (min-width: 992px){
+    .content_contactus {
+        margin-top: 3rem;
+    }
+
+    .skrtoverlay  {
+      padding-top: 90px;
+    }
+    
+   
+}
+
+/* md */
+@media (max-width: 991px) and (min-width: 768px){
+  .skrtoverlay  {
+    padding-top: 90px;
+  }
+  
+  
+    
+}
+
+
+/* sm */
+
+@media (max-width: 768px) and (min-width: 576px){
+  .skrtoverlay  {
+    padding-top: 36px;
+  }
+}
+
+/* m */
+@media (max-width: 575.9px) and  (min-width: 400px) {
+  .skrtoverlay  {
+    padding-top: 36px;
+  }
+ 
+}
+
+@media (max-width:399.9px) and (min-width: 319px){
+
+ 
+}
+

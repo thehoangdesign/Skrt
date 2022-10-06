@@ -1,0 +1,2444 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hiring</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    
+        <!-- Link css -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style_format.css">
+        <link rel="stylesheet" type="text/css" href="css/style_keyframes.css">
+        <link rel="stylesheet" href="css/styleandeffects.css">
+         <script type="text/javascript" src="js/format.js"></script>
+
+        <!-- JavaScript --> 
+
+        <script type="text/javascript" src="js/all.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/popper.min.js"></script> 
+        <script src="js/bootstrap-4.4.1.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/format.js"></script>
+        
+        <link href="css/hiring.css" rel="stylesheet" type="text/css">
+  
+    
+      </head>
+<body>
+
+
+  <a href="#" class="backtotop">
+		<button onclick="topFunction()" id="btntotop" title="Go to top" class="btncode ctagreen">
+			<svg width="35" height="35" viewBox="0 0 50 50">
+				<image id="down-chevron" width="50" height="50" transform="translate(50 50) rotate(180)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABBYSURBVHic7d29il3nGYbh1wTSCARpfQo5AatxZzA5xpxBemMTCLixmvhYQkJSpAhOIS9Jnpk9ez97r7W+v+uCBzHdVwx675ktUBUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMJR3VfW3qvpD64cAcLe3VfXXqvq69UMYw7uq+mdV/VJVfy8RADCit1X1vj78Xf7vEgFc8fnx3yYCAMby+fHfJgK46KXjLwIAxvLS8RcBXPTa8RcBAGN47fiLAJ655fiLAIC+3XL8RQAfJcdfBAD0KTn+IoC7jr8IAOjLPcdfBCzskeMvAgD68MjxFwEL2uP4iwCAtvY4/iJgIXsefxEA0Maex18ELOCI4y8CAM51xPEXARM78viLAIBzHHn8RcCEzjj+IgDgWGccfxEwkTOPvwgAOMaZx18ETKDF8RcBAPtqcfxFwMBaHn8RALCPlsdfBAyoh+MvAgAe08PxFwED6en4iwCA+/R0/EXAAHo8/iIAINPj8RcBHev5+IsAgNv0fPxFQIdGOP4iAOB1Ixx/EdCRkY6/CAB42UjHXwR0YMTjLwIAfmvE4y8CGhr5+IsAgA9GPv4ioIEZjr8IAFY3w/EXASea6fiLAGBVMx1/EXCCGY+/CABWM+PxFwEHmvn4iwBgFTMffxFwgBWOvwgAZrfC8RcBO1rp+IsAYFYrHX8RsIMVj78IAGaz4vEXAQ9Y+fiLAGAWKx9/EXAHx18EAONz/D9NBNzA8X8+EQCMxvF/PhHwCsf/8kQAMArH//JEwAsc/+sTAUDvHP/rEwGfcfxvnwgAeuX43z4RUI7/PRMBQG8c/3xLR4Djf/9EANALx//+LRkBjv/jEwFAa47/41sqAhz//SYCgFYc//22RAQ4/vtPBABnc/z339QR4PgfNxEAnMXxP25TRoDjf/xEAHA0x//4TRUBjv95EwHAURz/8zZFBDj+508EAHtz/M/f0BHg+LebCAD24vi325AR4Pi3nwgAHuX4t99QEeD49zMRANzL8e9nQ0SA49/fRACQcvz7W9cR4Pj3OxEA3Mrx73ddRoDj3/9EAHCN49//uooAx3+ciQDgEsd/nHURAY7/eBMBwFOO/3hrGgGO/7gTAcDG8R93TSLA8R9/IgBw/MffqRHg+M8zEQDrcvzn2SkR4PjPNxEA63H859uhEeD4zzsRAOtw/OfdIRHg+M8/EQDzc/zn364R4PivMxEA83L819kuEeD4rzcRAPNx/NfbQxHg+K87EQDzcPzX3V0R4PibCIDxOf4WRYDjb9tEAIzL8bdtN0WA429PJwJgPI6/Pd2rEeD426WJABiH42+X9mIEOP52bSIA+uf427V9jIAv6sPx/74+fOPAa36uqm+q6h+tHwI887aqfqiqr1o/hO79p6r+9Luq+nNV/bHxYxjDl/WhHP9SVf9t/Bbgk7f14Qe5d60fwhB+X1VfflFVb6rqu2rwfwozLL8JgH74yZ/U+6r6dvviTVX9WO0/m7Bx5t8EQHs+87d0P9ULH/mLAEsnAqAdx9/SvXj8NyLA0okAOJ/jb+lePf4bEWDpRACcx/G3dDcd/40IsHQiAI7n+Fu66PhvRIClEwFwHMff0t11/DciwNKJANif42/pHjr+GxFg6UQA7Mfxt3S7HP+NCLB0IgAe5/hbul2P/0YEWDoRAPdz/C3dIcd/IwIsnQiAnONv6Q49/hsRYOlEANzO8bd0pxz/jQiwdCIArnP8Ld2px38jAiydCIDLHH9L1+T4b0SApRMB8Jzjb+maHv+NCLB0IgA+cfwtXRfHfyMCLJ0IAMff8nV1/DciwNKJAFbm+Fu6Lo//RgRYOhHAihx/S9f18d+IAEsnAliJ42/phjj+GxFg6UQAK3D8Ld1Qx38jAiydCGBmjr+lG/L4b0SApRMBzMjxt3RDH/+NCLB0IoCZOP6WborjvxEBlk4EMAPH39JNdfw3IsDSiQBG5vhbuimP/0YEWDoRwIgcf0s39fHfiABLJwIYieNv6ZY4/hsRYOlEACNw/C3dUsd/IwIsnQigZ46/pVvy+G9EgKUTAfTI8bd0Sx//jQiwdCKAnjj+ls7x/4wIsHQigB44/pbO8X+BCLB0IoCWHH9L5/i/QgRYOhFAC46/pXP8byACLJ0I4EyOv6Vz/AMiwNKJAM7g+Fs6x/8OIsDSiQCO5PhbOsf/ASLA0okAjuD4WzrHfwciwNKJAPbk+Fs6x39HIsDSiQD24PhbOsf/ACLA0okAHuH4WzrH/0AiwNKJAO7h+Fs6x/8EIsDSiQASjr+lc/xPJAIsnQjgFo6/pXP8GxABlk4E8BrH39I5/g2JAEsnAniJ42/pHP8OiABLJwL4nONv6Rz/jogASycCqHL8LZ/j3yERYOlEwNocf0vn+HdMBFg6EbAmx9/SOf4DEAGWTgSsxfG3dI7/QESApRMBa3D8LZ3jPyARYOlEwNwcf0vn+A9MBFg6ETAnx9/SOf4TEAGWTgTMxfG3dI7/RESApRMBc3D8LZ3jPyERYOlEwNgcf0vn+E9MBFg6ETAmx9/SOf4LEAGWTgSMxfG3dI7/QkSApRMBY3D8LZ3jvyARYOlEQN8cf0vn+C9MBFg6EdAnx9/SOf6IAIsnAvri+Fs6x5+PRIClEwF9cPwtnePPMyLA0omAthx/S+f4c5EIsHQioA3H39I5/lwlAiydCDiX42/pHH9uJgIsnQg4h+Nv6Rx/YiLA0omAYzn+ls7x524iwNKJgGM4/pbO8edhIsDSiYB9Of6WzvFnNyLA0omAfTj+ls7xZ3ciwNKJgMc4/pbO8ecwIsDSiYD7OP6WzvHncCLA0omAjONv6Rx/TiMCLJ0IuI3jb+kcf04nAiydCHid42/pHH+aEQGWTgS8zPG3dI4/zYkASycCfsvxt3SOP90QAZZOBHzg+Fs6x5/uiABLt3oEOP6WzvGnWyLA0q0aAY6/pXP86Z4IsHSrRYDjb+kcf4YhAizdKhHg+Fs6x5/hiABLN3sEOP6WzvFnWCLA0s0aAY6/pXP8GZ4IsHSzRYDjb+kcf6YhAizdLBHg+Fs6x5/piABLN3oEOP6WzvFnWiLA0o0aAY6/pXP8mZ4IsHSjRYDjb+kcf5YhAizdKBHg+Fs6x5/liABL13sEOP6WzvFnWSLA0vUaAY6/pXP8WZ4IsHS9RYDjb+kcf/iVCLB0vUSA42/pHH94QgRYutYR4PhbOscfLhABlq5VBDj+ls7xhytEgKU7OwIcf0vn+MONRIClOysCHH9L5/hDSARYuqMjwPG3dI4/3EkEWLqjIsDxt3SOPzxIBFi6vSPA8bd0jj/sRARYur0iwPG3dI4/7EwEWLpHI8Dxt3SOPxxEBFi6eyPA8bd0jj8cTARYujQCHH9L5/jDSUSApbs1Ahx/S+f4w8lEgKW7FgGOv6Vz/KEREWDpLkWA42/pHH9oTARYuqcR4PhbOsd/Al+0fgC7eFNV31XV160fwjB+rqpvqup/VfVDVX3V9jkM5H1VfVtV/2r9EB4jAObxtqq+r6p3rR/CMN7/+qfvGW7l+E9EAMzFbwKAozj+kxEA8xEBwN4c/wkJgDmJAGAvjv+kBMC8RADwKMd/YgJgbiIAuJfjPzkBMD8RAKQc/wUIgDWIAOBWjv8iBMA6RABwjeO/EAGwFhEAXOL4L0YArEcEAE85/gsSAGsSAcDG8V+UAFiXCAAc/4UJgLWJAFiX4784AYAIgPU4/ggAqkoEwEocf6pKAPCJCID5Of58JAD4nAiAeTn+/IYA4CkRAPNx/HlGAPASEQDzcPx5kQDgEhEA43P8uUgA8BoRAONy/HmVAOAaEQDjcfy5SgBwCxEA43D8uYkA4FYiAPrn+HMzAUBCBEC/HH8iAoCUCID+OP7EBAD3EAHQD8efuwgA7iUCoD3Hn7sJAB4hAqAdx5+HCAAeJQLgfI4/DxMA7EEEwHkcf3YhANiLCIDjOf7sRgCwJxEAx3H82ZUAYG8iAPbn+LM7AcARRADsx/HnEAKAo4gAeJzjz2EEAEcSAXA/x59DCQCOJgIg5/hzOAHAGUQA3M7x5xQCgLOIALjO8ec0AoAziQC4zPHnVAKAs4kAeM7x53QCgBZEAHzi+NOEAKAVEQCOPw0JAFoSAazM8acpAUBrIoAVOf40JwDogQhgJY4/XRAA9EIEsALHn24IAHoiApiZ409XBAC9EQHMyPGnOwKAHokAZuL40yUBQK9EADNw/OmWAKBnIoCROf50TQDQOxHAiBx/uicAGIEIYCSOP0MQAIxCBDACx59hCABGIgLomePPUAQAoxEB9MjxZzgCgBGJAHri+DMkAcCoRAA9cPwZlgBgZCKAlhx/hiYAGJ0IoAXHn+EJAGYgAjiT488UBACzEAGcwfFnGgKAmYgAjuT4MxUBwGxEAEdw/JmOAGBGIoA9Of4AA3lTVT9W1S9mD+ynqnpbAAxFBNgjc/wBBiYC7J45/gATEAGWzPEHmIgIsFvm+ANMSATYa3P8ASYmAuylOf4ACxAB9vkcf4CFiABz/AEWJQLWnuMPsDARsOYcfwBEwGJz/AH4SASsMccfgGdEwNxz/AG4SATMOccfgKtEwFxz/AG4mQiYY44/ADERMPYcfwDuJgLGnOMPwMNEwFhz/AHYjQgYY44/ALsTAX3P8QfgMCKgzzn+ABxOBPQ1xx+A04iAPub4A3A6EeD4A7AoEeD4A7AoEeD4A7AoEeD4A7AoEeD4A7AoEeD4A7AoEeD4A7AoEeD4A7AoEeD4A7AoEeD4A7AoEeD4A7AoEeD4A7AoEeD4A7AoEeD4A7AoEeD4A7AoEeD4A7Co1SPA8QdgWatGgOMPwPJWiwDHHwB+tUoEOP4A8MTsEeD4A8AFs0aA4w8AV8wWAY4/ANxolghw/AEgNHoEOP4AcKdRI8DxB4AHjRYBjj8A7GSUCHD8AWBnvUeA4w8AB+k1Ahx/ADhYbxHg+APASXqJAMcfAE7WOgIcfwBopFUEOP4A0NjZEeD4A0AnzooAxx8AOnN0BDj+ANCpoyLA8QeAzu0dAY4/AAxirwhw/AFgMI9GgOMPAIO6NwIcfwAYXBoBjj8ATOLWCHD8AWAy1yLA8QeASV2KAMcfACb3NAIcfwBYxBYBjj8ALOZtOf4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB07v8lSoIvConUyQAAAABJRU5ErkJggg=="/>
+			
+			</svg>
+		</button>
+	</a>
+	<div class="container-fluid p-0" id="navigation">
+		<div class="naviheader d-lg-flex d-none">
+			<div class="instacontainer mr-auto">
+				<span>
+					<i class="fab fa-instagram"></i>	
+				</span>
+				<p>100k Subscribers</p>
+			</div>
+			<div class="searchdiv">
+				<div class="hrheader"></div>
+				<div class="help">
+					<a href="#">
+						<p>Help</p>
+					</a>
+				</div>
+			</div>
+			<div class="inputbg">
+				<input type="text" name="" placeholder="Search" value="" id="inputsearch">
+			</div>
+			<div class="inputfill">
+			</div>
+		</div>
+		<div class="container-fluid navi d-lg-flex d-none" id="navi">
+			<div class="navlogo mr-auto">
+				<a href="Phan Dang Khoa_Skrt.html">
+					<img src="img/Logo2.png" width="100%">
+				</a>
+			</div>
+			<div class="navlink mx-auto">
+				<ul>
+					<li class="dropdown" id="dropdown">
+						<a href="Thehoang_product.html">Skateboards</a>
+						<p>Skateboards</p>
+					</li>
+					<li class="">
+						<a href="Phan Dang Khoa_Gallery.html">Gallery</a>
+						<p>Gallery</p>
+					</li>
+					<li class="">
+						<a href="Nguyen Hoang Tuan_Blog.html">Bloq</a>
+						<p>Bloq</p>
+					</li>
+					<li class="">
+						<a href="Phan Dang Khoa_Brand.html">Brand</a>
+						<p>Brand</p>
+					</li>
+				</ul>
+			</div>
+			<div class="navicon ml-auto">
+				<ul>
+					<li>
+						<a href="Phan Dang Khoa_Login-Register.html">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="icons">
+								<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2">
+								</path>
+								<circle cx="12" cy="7" r="4"></circle>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" class="heart">
+								<path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"/>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="Phan Dang Khoa_Shopping Bags.html">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="icons">
+								<path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+								<line x1="3" y1="6" x2="21" y2="6"></line>
+								<path d="M16 10a4 4 0 0 1-8 0"></path>
+							</svg>
+							<span><p>3</p></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="dropdown-content">
+				<div class="item">
+					<a href="Thehoang_product.html" id="dropcomplete">
+						<div class="dropdown-item dropcomplete">
+							<p>Completes</p>
+						</div>
+					</a>
+					<a href="Thehoang_product.html" id="dropdeck">
+						<div class="dropdown-item dropdeck">
+							<p>Decks</p>
+						</div>
+					</a>
+					<a href="Thehoang_product.html" id="dropwheel">
+						<div class="dropdown-item dropwheel">
+							<p>Wheels</p>
+						</div>
+					</a>
+					<a href="Thehoang_product.html" id="droptruck">
+						<div class="dropdown-item droptruck">
+							<p>Trucks</p>
+						</div>
+					</a>
+					<a href="Thehoang_product.html" id="dropaccess">
+						<div class="dropdown-item dropaccess">
+							<p>Accessories</p>
+						</div>
+					</a>
+				</div>
+				<div class="shopall">
+					<a href="Thehoang_product.html">
+						<p>Shop All</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bgoverlay1 d-lg-block d-none" id="bgoverlay1"></div>
+		<div class="bgoverlay2 d-lg-block d-none" id="bgoverlay2"></div>
+		<div class="container-fluid navi d-lg-none d-flex">
+			<div class="menu mr-auto">
+				<form>
+					<label for="menuToggle">
+						<input type="checkbox" name="menuToggle" value="menuToggle" id="menuToggle" class="menuToggle">
+						<span>
+							<svg width="40" height="40" viewBox="0 0 40 30" fill="none" stroke="" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" id="wave">
+								<path d="M.5,3.35C5-.45,9.2-.45,13,3.35c3.8,3.8,8,3.8,12.5,0s8.7-3.8,12.5,0c3.8,3.8,8,3.8,12.5,0s8.7-3.8,12.5,0c3.8,3.8,8,3.8,12.5,0" id="menuIconWaves"/>
+								<path d="M.5,16.95c4.5-3.8,8.7-3.8,12.5,0,3.8,3.8,8,3.8,12.5,0s8.7-3.8,12.5,0c3.8,3.8,8,3.8,12.5,0s8.7-3.8,12.5,0c3.8,3.8,8,3.8,12.5,0" id="menuIconWaves"/>
+							</svg>
+
+							<svg id="close" viewBox="0 0 512 512" width="" height="">
+								<path id="l1" class="l1" d="M375.32,333.58c12.19,11.22,12.97,30.18,1.76,42.37-11.22,12.19-30.18,12.97-42.37,1.76-.6-.56-1.19-1.14-1.76-1.76l-77.58-77.55-77.55,77.55c-11.91,11.51-30.9,11.18-42.4-.73-11.23-11.63-11.23-30.05,0-41.66l77.55-77.55-77.55-77.55c-11.51-11.91-11.18-30.9,.73-42.4,11.63-11.23,30.05-11.23,41.66,0l77.55,77.54,77.58-77.54c11.22-12.19,30.18-12.97,42.37-1.76,12.19,11.22,12.97,30.18,1.76,42.37-.56,.6-1.14,1.19-1.76,1.76l-77.54,77.58,77.54,77.58Z"/>
+							</svg>
+						</span>
+					</label>
+
+				</form>
+			</div>
+			<div class="navlogo mx-auto">
+				<a href="Phan Dang Khoa_Skrt.html">
+					<img src="img/Logo2.png" width="100%">
+				</a>
+			</div>
+			<div class="cart ml-auto">
+				<a href="Phan Dang Khoa_Shopping Bags.html" >
+					<svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="icons">
+						<path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+						<line x1="3" y1="6" x2="21" y2="6"></line>
+						<path d="M16 10a4 4 0 0 1-8 0"></path>
+					</svg>
+					<span><p>3</p></span>
+				</a>
+			</div>
+
+
+			<!--Menu-->
+			<div class="container-fluid p-0" id="menu">
+				<div class="menucontainer p-0">
+					<div class="menuleft">
+						<div class="menunavi">
+							<ul class="p-0 m-0">
+								<li class="d-flex skateboarnavi ">
+									<a href="Thehoang_product.html" class="" id="">
+										<span>
+											<span>
+												<svg id="Skateboard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510.63 510.66">
+													<defs>
+														<style>.cls-1{fill:#000;}.cls-2{fill: #fff;}
+														</style>
+													</defs>
+													<path class="cls-2" d="M460.51,50.11c-60.2-60.1-157.7-60.2-217.9,0h0L50.41,242.31c-60.3,60-60.6,157.5-.6,217.9s157.5,60.6,217.9,.6l.6-.6,192.2-192.2c60.1-60.2,60.2-157.7,0-217.9h0Z"/>
+													<path class="cls-1" d="M386.51,178.01l29.5,29.5-62.5,62.5-29.5-29.5,16.5-16.5-53.9-53.9-16.5,16.5-29.5-29.5,62.5-62.5,29.5,29.5-16.5,16.5,53.9,53.9,16.5-16.5Zm-145.9,146l29.5,29.5-62.5,62.5-29.5-29.5,16.5-16.5-53.9-53.9-16.5,16.5-29.5-29.5,62.5-62.5,29.5,29.5-16.5,16.5,53.9,53.9,16.5-16.5Z"/>
+												</svg>
+											</span>
+											<p class="Skateboard">Skateboard</p>
+										</span>
+									</a>
+									<span class="arrow1">
+										<svg id="Bold" viewBox="0 0 24 24" width="40" height="40">
+											<path d="M17.921,1.505a1.5,1.5,0,0,1-.44,1.06L9.809,10.237a2.5,2.5,0,0,0,0,3.536l7.662,7.662a1.5,1.5,0,0,1-2.121,2.121L7.688,15.9a5.506,5.506,0,0,1,0-7.779L15.36.444a1.5,1.5,0,0,1,2.561,1.061Z"/>
+										</svg>
+									</span>
+								</li>
+								<li class="">
+									<a href="Phan Dang Khoa_Gallery.html" class="">
+										<span>
+											<span>
+												<svg id="Gallery" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+													<defs>
+														<style>.cls-4{fill:#fff;}.
+														</style>
+													</defs>
+													<path class="cls-4" d="M320,234.67H0V64C0,28.65,28.65,0,64,0H320V234.67Z"/>
+													<path class="cls-4" d="M512,234.67h-149.33V0h85.33c35.35,0,64,28.65,64,64V234.67Z"/>
+													<path class="cls-4" d="M149.33,512H64c-35.35,0-64-28.65-64-64v-170.67H149.33v234.67Z"/>
+													<path class="cls-4" d="M448,512H192v-234.67h320v170.67c0,35.35-28.65,64-64,64Z"/>
+												</svg>
+											</span>
+											<p class="Gallery">Gallery</p>
+										</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="Nguyen Hoang Tuan_Blog.html" class="">
+										<span>
+											<span>
+												<svg id="Bloq" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512.01">
+													<defs>
+														<style>.cls-3{fill:#fff;}.
+														</style>
+													</defs>
+													<path class="cls-3" d="M106.67,0C47.79,.07,.07,47.79,0,106.67V490.67c0,11.78,9.57,21.33,21.35,21.32,4.29,0,8.47-1.3,12.02-3.72l44.93-30.7,44.93,30.7c7.27,4.98,16.84,4.98,24.11,0l44.8-30.7,44.8,30.7c7.27,4.98,16.86,4.98,24.13,0l44.8-30.68,44.8,30.66c9.74,6.63,23.01,4.12,29.64-5.62,2.4-3.53,3.69-7.69,3.7-11.96V106.67C383.93,47.79,336.21,.07,277.33,0H106.67ZM234.67,298.67H106.67c-11.78,0-21.33-9.55-21.33-21.33s9.55-21.33,21.33-21.33H234.67c11.78,0,21.33,9.55,21.33,21.33s-9.55,21.33-21.33,21.33Zm64-106.67c0,11.78-9.55,21.33-21.33,21.33H106.67c-11.78,0-21.33-9.55-21.33-21.33s9.55-21.33,21.33-21.33h170.67c11.78,0,21.33,9.55,21.33,21.33Z"/>
+												</svg>
+											</span>
+											<p class="Bloq">Bloq</p>
+										</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="Phan Dang Khoa_Brand.html" class="">
+										<span>
+											<span id="Brand">
+												<img class="p1" src="img/Menu1.png">
+												<img class="p2" src="img/Logo2.png">
+											</span>
+											<p>Brand</p>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="menuuser">
+							<div class="userbody1">
+								<a href="Phan Dang Khoa_Login-Register.html">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="icons">
+										<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2">
+										</path>
+										<circle cx="12" cy="7" r="4"></circle>
+									</svg>
+								</a>
+							</div>
+							<div class="userbody2">
+								<a href="">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="#fff" class="heart">
+										<path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="menusearch">
+							<input type="text" name="" placeholder="Search something here">
+							<span>
+								<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+									<circle cx="11" cy="11" r="8">
+									</circle><line x1="21" y1="21" x2="16.65" y2="16.65">
+									</line>
+								</svg>
+							</span>
+						</div>
+						<div class="menusocial">
+							<a href="">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="">
+								<i class="fab fa-instagram"></i>
+							</a>
+							<a href="">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a href="">
+								<i class="fal fa-envelope"></i>
+							</a>
+						</div>
+					</div>
+					<div class="menubg">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>	
+					</div>
+
+					<div class="menuright">
+						<div class="menunavi">
+							<ul class="p-0 m-0">
+								<li>
+									<span class="arrow2">
+										<svg id="Bold" viewBox="0 0 24 24" width="40" height="40">
+											<path d="M17.921,1.505a1.5,1.5,0,0,1-.44,1.06L9.809,10.237a2.5,2.5,0,0,0,0,3.536l7.662,7.662a1.5,1.5,0,0,1-2.121,2.121L7.688,15.9a5.506,5.506,0,0,1,0-7.779L15.36.444a1.5,1.5,0,0,1,2.561,1.061Z"/>
+										</svg>
+									</span>
+									<a href="Thehoang_product.html">
+										<p>Completes</p>
+									</a>
+								</li>
+								<li>
+									<a href="Thehoang_product.html">
+										<p>Decks</p>
+									</a>
+								</li>
+								<li>
+									<a href="Thehoang_product.html">
+										<p>Wheels</p>
+									</a>
+								</li>
+								<li>
+									<a href="Thehoang_product.html">
+										<p>Trucks</p>
+									</a>
+								</li>
+								<li>
+									<a href="Thehoang_product.html">
+										<p>Accessories</p>
+									</a>
+								</li>
+								<li class="shoppall">
+									<a href="Thehoang_product.html">
+										<p>Shop All</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Navigation-->
+
+
+    <!---------------------------BANNER----------------------------->
+ <div class="container-fluid" id="hiring_banner">
+    <div class="hiring_content">
+        <h1 class="hiring_heading">Drive your career</h1>
+        <p class="hiring_subheading">This is where individual imaginations gather together, <br>
+            committing to the values that lead to great work.</p>
+
+            <div class="btn-hiring-heading">
+              <button class="btncode ctagreen ">
+                See More
+              </button>
+            </div>
+    </div>
+
+    
+  </div>
+   <!-- body 1- job are being hired -->
+   <h1 class="heading_hiring">Join a team and inspire 
+    the work.</h1> 
+
+  
+
+    <!-- hirring destopb -->
+
+   <div class="hiring_comprehen container-fluid
+  d-none d-lg-block" >
+    <div class="tabs-container">
+        <div class="tabs">
+          <div class="tab active">Art</div>
+          <div class="tab">Branding</div>
+          <div class="tab">Photograph</div>
+          <div class="tab">Marketing</div>
+        </div>
+  
+        <div class="content-container">
+          <!-- art -->
+          <div class="content active">
+            
+            <div class="cont1">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring">Sketch Idea</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                        junior Sketcher to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Onsite
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              30k - 60k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Da Nang City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring">Digital Painting</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                      Illustrator to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Hybrid
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              30k-60k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ho Chi Minh City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring">3D Artis</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                        mid-level  to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              30k-60k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ho Chi Minh City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+            
+  
+          
+          </div>
+  
+          <!-- barnd -->
+          <div class="content">
+            <div class="cont1 ">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring">Brand Idendity</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                        senior Brand Identity to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Hybrid
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              40k - 80k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ho Chi Minh City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1 ">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring"> Brand Stragtegy</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                        mid-level Branding Stragtegy to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Onsite
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              30k - 70k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Hai Phong City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1 ">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring"> Brand Manager</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                     Brand Manager to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Remote
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              34k - 60k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ha Noi City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+            
+  
+          </div>
+  
+          <!-- Photograp -->
+          <div class="content">
+            <div class="cont1">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring">Fine Art Photographer</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                        Photograpoher to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Hybrid
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              40k - 60k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ho Chi Minh City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring"> Studio/Portrait Photographer</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                      Studio/Portrait Photographer to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Onsite
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              30k - 90k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Hai Phong City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring"> Photojournalist</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                      Photojournalist to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Hybrid
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              50k - 90k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ha Noi City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+          </div>
+          
+          <!-- maketing -->
+          <div class="content">
+            <div class="cont1">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring">Chief marketing officer</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                      Chief marketing officer to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Hybrid
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              120k - 150k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ho Chi Minh City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring"> Marketing Consultant</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                      Consultant to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Onsite
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              30k - 90k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Hai Phong City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring"> Marketing Specialist</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                      Marketing Specialist to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Hybrid
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              50k - 90k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ha Noi City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+  
+  </div> 
+
+  <!-- hiring mobile -->
+  <div class="hiring_comprehen container-fluid dropdown d-lg-none
+  " >
+  <p class="dropdown-toggle dropdown-filter filter-job"  data-toggle="dropdown" >
+   Jobs Filter 
+   <svg class="jobfilter-svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+    <g id="Icon_feather-plus" data-name="Icon feather-plus" transform="translate(-6 -6)">
+      <path id="Path_161" data-name="Path 161" d="M18,7.5v21" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_162" data-name="Path 162" d="M7.5,18h21" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </svg>
+  
+  </p>
+
+    <div class="tabs-container-mobile">
+        <div class="tabsmobile dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <div class="tab-mobile activemobile">Art</div>
+          <div class="tab-mobile dropdown-item">Branding</div>
+          <div class="tab-mobile dropdown-item">Photograph</div>
+          <div class="tab-mobile dropdown-item">Marketing</div>
+        </div>
+  
+        <div class="content-container-mobile">
+             <!-- ảtr -->
+
+          <div class="content-mobile activemobile">
+            <div class="cont1-mobile">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring">Sketch Idea</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                        junior Sketcher to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Onsite
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              30k - 60k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Da Nang City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+           
+            <div class="cont1-mobile">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring">Digital Painting</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                      Illustrator to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Hybrid
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              30k-60k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ho Chi Minh City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1-mobile">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring">3D Artis</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                        mid-level  to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              30k-60k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ho Chi Minh City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+            
+            
+          </div>
+  
+          <!-- branding -->
+          <div class="content-mobile">
+            <div class="cont1-mobile ">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring">Brand Idendity</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                        senior Brand Identity to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Hybrid
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              40k - 80k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ho Chi Minh City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1-mobile ">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring"> Brand Stragtegy</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                        mid-level Branding Stragtegy to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Onsite
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              30k - 70k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Hai Phong City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1-mobile ">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring"> Brand Manager</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                     Brand Manager to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Remote
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              34k - 60k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ha Noi City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+            
+          </div>
+  <!-- phôtgraphe -->
+          <div class="content-mobile">
+            <div class="cont1-mobile">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring">Fine Art Photographer</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                        Photograpoher to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Hybrid
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              40k - 60k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ho Chi Minh City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1-mobile">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring"> Studio/Portrait Photographer</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                      Studio/Portrait Photographer to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Onsite
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              30k - 90k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Hai Phong City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1-mobile">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring"> Photojournalist</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                      Photojournalist to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Hybrid
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              50k - 90k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ha Noi City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+          </div>
+  
+          <div class="content-mobile">
+            <div class="cont1-mobile">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring">Chief marketing officer</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                      Chief marketing officer to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Hybrid
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              120k - 150k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ho Chi Minh City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1-mobile">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring"> Marketing Consultant</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                      Consultant to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Onsite
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              30k - 90k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Hai Phong City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+
+            <div class="cont1-mobile">
+
+              <div class="row ">
+                <div class="col-xl-8
+                col-lg-8
+                
+                ">
+                    <h4 class="title-job-hiring"> Marketing Specialist</h4>
+                    <p class="subtitle-job-hiring">We are looking for a 
+                      Marketing Specialist to join our team.</p>
+
+                    <div class="subtitle-job-hiring-details" >
+
+                        <span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-2 -2)">
+                              <path id="Path_157" data-name="Path 157" d="M21,12a9,9,0,1,1-9-9A9,9,0,0,1,21,12Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                              <path id="Path_158" data-name="Path 158" d="M18,9v6l4,2" transform="translate(-6.25 -2.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                          </svg>
+                          Full-time - Hybrid
+                          </span>
+                          
+
+                          <span class="hiring_salary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="26" viewBox="0 0 27 28.386">
+                                <g id="money-svgrepo-com" transform="translate(-11.975)">
+                                  <path id="Path_160" data-name="Path 160" d="M12.154,6.174l16.192,9.349a.9.9,0,0,0,.8,0l9.656-5.61a.249.249,0,0,0,0-.469L22.609.1a.9.9,0,0,0-.8,0l-9.656,5.61A.248.248,0,0,0,12.154,6.174Zm4.122-1.1a2.227,2.227,0,0,0-.289-.139l4.5-2.617a1.557,1.557,0,0,0,.237.168,3.287,3.287,0,0,0,2.976,0,1.3,1.3,0,0,0,.243-.174L34.888,8.634a2.161,2.161,0,0,0-.405.185.912.912,0,0,0,.012,1.725,2.274,2.274,0,0,0,.417.185l-4.544,2.64a1.423,1.423,0,0,0-.324-.237,3.287,3.287,0,0,0-2.976,0,1.224,1.224,0,0,0-.168.116L15.987,6.938a2.051,2.051,0,0,0,.3-.145A.909.909,0,0,0,16.276,5.074ZM29.325,10.44l.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,29.325,10.44Zm-10.05-5.8.712-.417a.441.441,0,0,1,.4,0l1.25.724a.122.122,0,0,1,0,.232l-.712.417a.441.441,0,0,1-.4,0l-1.25-.724A.122.122,0,0,1,19.275,4.64Zm18.438,7.682,1.262.729L28.856,18.927l-.33-.191-.932-.538L11.975,9.173l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,12.322l1.25-.724,15.636,9.042L37.7,15.506l1.256.724L28.873,22.088l-.324-.191Zm10.1-2.75,1.262.729L28.856,25.22l-.33-.191-.932-.538L11.975,15.471l1.25-.729,15.619,9.025Zm-10.1,9.042L11.975,18.615l1.25-.724,15.636,9.042L37.7,21.8l1.256.724L28.873,28.386l-.324-.191ZM22.251,9.676a7.107,7.107,0,0,0,6.437-.006c1.771-1.03,1.771-2.7-.006-3.728a7.089,7.089,0,0,0-6.437.006C20.468,6.979,20.468,8.646,22.251,9.676Zm.9-2.715.249-.145a.258.258,0,0,1,.226,0L23.935,7c.069-.041.133-.081.2-.116L23.831,6.7c-.064-.035-.064-.093,0-.127l.249-.145a.258.258,0,0,1,.226,0l.388.226.052-.017a3.837,3.837,0,0,1,1.4-.156,3.349,3.349,0,0,1,1.054.255,3.243,3.243,0,0,1,.347.168,2.245,2.245,0,0,1,.654.562l.035.058c.035.081-.006.133-.139.162s-.278.069-.417.1a.289.289,0,0,1-.226-.017L27.4,7.737c-.093-.087-.179-.179-.278-.266a1.608,1.608,0,0,0-.3-.214,1.779,1.779,0,0,0-.521-.2,1.881,1.881,0,0,0-.9.012l-.012.006.758.434c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.868-.5c-.064.041-.133.075-.2.116l.868.5c.064.035.064.093,0,.127l-.249.145a.258.258,0,0,1-.226,0l-.793-.457a.449.449,0,0,0-.035.648,1.557,1.557,0,0,0,.318.249,2.666,2.666,0,0,0,.365.174c.145.052.3.1.457.156a.679.679,0,0,1,.064.029.084.084,0,0,1,.035.133,2.4,2.4,0,0,1-.174.249.266.266,0,0,1-.284.075c-.139-.029-.272-.069-.405-.11a3.588,3.588,0,0,1-.654-.284,1.967,1.967,0,0,1-.5-.4.807.807,0,0,1-.052-1.1,2.075,2.075,0,0,1,.185-.208l-.37-.214C23.09,7.054,23.09,7,23.154,6.961Z" transform="translate(0 0)" fill="#fff"/>
+                                </g>
+                              </svg>
+
+                              50k - 90k
+                          </span>
+                          
+                          
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4
+                col-lg-4
+                col-md-4 hiring-location">
+
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.328" height="18" viewBox="0 0 17.328 18">
+                            <path id="Icon_map-location-arrow" data-name="Icon map-location-arrow" d="M13.556,19.581l-2.773-8.275H1.773L19.1,1.581Z" transform="translate(-1.773 -1.581)" fill="#fff"/>
+                          </svg>
+                    </span>
+                    Ha Noi City
+                      
+                </div>
+
+                <div class="btn-hiring">
+                  <button class="btncode ctagreen ">
+                    See More
+                  </button>
+                </div>
+                
+                
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  </div> 
+
+ 
+    <!-- body 1- benefit -->
+   <h1 class="heading_hiring mraginplus">Peaks and Benefits</h1> 
+   
+   <div class="hiring_comprehen-benefit container-fluid">
+    <div class="row">
+        
+        <div class="col-xl-6
+        col-lg-6
+        col-md-12
+        col-sm-12
+        col-12 details-benefit">
+            <span class="benefit_hiring-title">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                    <rect id="Rectangle_1458" data-name="Rectangle 1458" width="15" height="15" transform="translate(23 11.192) rotate(135)" fill="#fff"/>
+                  </svg>
+                  
+                Competitive Salary</span>
+        <p class="benefit_hiring-subtitle">Be in a competitive environment and salary will 
+            be paid according to ability.</p>
+        </div>
+
+        <div class="col-xl-6
+        col-lg-6
+        col-md-12
+        col-sm-12
+        col-12 details-benefit">
+            <span class="benefit_hiring-title">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                    <rect id="Rectangle_1458" data-name="Rectangle 1458" width="15" height="15" transform="translate(23 11.192) rotate(135)" fill="#fff"/>
+                  </svg>
+                  
+                  Health Coverage</span>
+        <p class="benefit_hiring-subtitle">Health is always something that is valued and always gets preferential treatment on medical regime.</p>
+        </div>
+
+        <div class="col-xl-6
+        col-lg-6
+        col-md-12
+        col-sm-12
+        col-12 details-benefit">
+            <span class="benefit_hiring-title">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                    <rect id="Rectangle_1458" data-name="Rectangle 1458" width="15" height="15" transform="translate(23 11.192) rotate(135)" fill="#fff"/>
+                  </svg>
+                  
+                  Outings</span>
+        <p class="benefit_hiring-subtitle">There will be practical learning through projects, special training courses.</p>
+        </div>
+
+        <div class="col-xl-6
+        col-lg-6
+        col-md-12
+        col-sm-12
+        col-12 details-benefit">
+            <span class="benefit_hiring-title">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                    <rect id="Rectangle_1458" data-name="Rectangle 1458" width="15" height="15" transform="translate(23 11.192) rotate(135)" fill="#fff"/>
+                  </svg>
+                  
+                  Paid Holidays</span>
+        <p class="benefit_hiring-subtitle">On public holidays fully paid 100% full salary and additional bonuses.</p>
+        </div>
+        <div class="col-xl-6
+        col-lg-6
+        col-md-12
+        col-sm-12
+        col-12 details-benefit">
+            <span class="benefit_hiring-title">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                    <rect id="Rectangle_1458" data-name="Rectangle 1458" width="15" height="15" transform="translate(23 11.192) rotate(135)" fill="#fff"/>
+                  </svg>
+                  Parties</span>
+        <p class="benefit_hiring-subtitle">There will have parties every period and honor those with the best achievements.</p>
+        </div> <div class="col-xl-6
+        col-lg-6
+        col-md-12
+        col-sm-12
+        col-12 details-benefit">
+            <span class="benefit_hiring-title">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                    <rect id="Rectangle_1458" data-name="Rectangle 1458" width="15" height="15" transform="translate(23 11.192) rotate(135)" fill="#fff"/>
+                  </svg>
+                  
+                  Work From Home</span>
+        <p class="benefit_hiring-subtitle">Freedom to work comfortably, you can work anywhere as long as you have quality and work efficiency.</p>
+        </div> <div class="col-xl-6
+        col-lg-6
+        col-md-12
+        col-sm-12
+        col-12 details-benefit">
+            <span class="benefit_hiring-title">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                    <rect id="Rectangle_1458" data-name="Rectangle 1458" width="15" height="15" transform="translate(23 11.192) rotate(135)" fill="#fff"/>
+                  </svg>
+                  
+                  Trips</span>
+        <p class="benefit_hiring-subtitle">There are trips, team building to connect the solidarity of the members.</p>
+        </div> <div class="col-xl-6
+        col-lg-6
+        col-md-12
+        col-sm-12
+        col-12 details-benefit">
+            <span class="benefit_hiring-title">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                    <rect id="Rectangle_1458" data-name="Rectangle 1458" width="15" height="15" transform="translate(23 11.192) rotate(135)" fill="#fff"/>
+                  </svg>
+                  Incentives</span>
+        <p class="benefit_hiring-subtitle">Extra salary for members with good achievements, breakthroughs and new levels.</p>
+        </div>
+    
+
+       
+        
+    </div>
+   
+
+   </div>
+
+   
+        <!-- body 1- contact us-->
+        <h1 class="heading_hiring  mraginplus " id="contactus-hiring">Contact Us</h1> 
+
+          <!-------------------------Email Form sending message----------------------------->
+
+<div class="container reveal" id="sendingmessage_form" >
+   
+
+	<div class="row">
+
+		<div class="col-xl-6
+		col-lg-6
+		col-md-6
+		col-sm-12
+		col-12">
+			<input type="text" id="sendingmessage_name" name="text" placeholder="Your Name">
+		</div>
+		<div class="col-xl-6
+		col-lg-6
+		col-md-6
+		col-sm-12
+		col-12" >
+			<input type="email" id="sendingmessage_email" name="email" placeholder="Email Address">
+		</div>
+
+		<div class="col-xl-12
+		col-lg-12
+		col-md-12
+		col-sm-12
+		col-12">
+			<input type="text" id="sendingmessage_phone" name="phone" placeholder="Your phone (optional)">
+		</div>
+
+		<div class="col-xl-12
+		col-lg-12
+		col-md-12
+		col-sm-12
+		col-12">
+			<textarea id="sendingmessage_text" name="Message" rows="3" maxlength="200" placeholder="" required> Message...</textarea>
+		</div>
+
+
+
+	</div>
+	<div class="contact_sendmessage-hiring "><button class="btncode ctagreen ">
+    See More
+  </button></div>
+
+</div>
+
+
+
+
+  <div class="container-fluid footercontainer p-0 d-lg-block d-none">
+    <div class="subscription">
+      <h1>Subscrible</h1>
+      <p class="signtext">Sign up for receiving our email monthly, when ever we discover new items</p>
+      <div class="formcontainer">
+        <div class="inputform">
+          <input type="text" name="" placeholder="Skateboard@skrt.co.uk">
+          <p>Your Email</p>
+        </div>
+        <button class="btncode ctablack">
+          <p>Sign Up</p>
+        </button>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 1440 108" class="heck p-0">
+      <path id="Path_104" data-name="Path 104" d="M0,0H612A108,108,0,0,1,720,108H0Z"/>
+      <path id="Path_105" data-name="Path 105" d="M108,0H720V108H0A108,108,0,0,1,108,0Z" transform="translate(720)"/>
+    </svg>
+    <div class="footer">
+      <a href="Phan Dang Khoa_Skrt.html" class="footerlogo">
+        <img src="img/Logo2.png" width="200px">
+      </a>
+      <div class="underlogo">
+        <h5>Let's pray and skate by your passion ~ Skateboard@skrt.co.uk</h5>
+      </div>
+      <div class="socialmedia">
+        <div class="footerhr mr-auto"></div>
+        <div class="footericon p-0">
+          <a href="">
+            <span></span>
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="">
+            <span></span>
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="">
+            <span></span>
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="">
+            <span></span>
+            <i class="fal fa-envelope"></i>
+          </a>
+        </div>
+        <div class="footerhr ml-auto"></div>
+      </div>
+      <div class="container footerlink p-0">
+        <div class="row p-0">
+          <div class="col-xl-3 col-lg-3">
+            <p><span>support</span></p>
+            <a href="Nguyen Hoang Tuan_Order Status.html">
+              <p>Order Status</p>
+            </a>
+            <a href="Thehoang_FAQs.html">
+              <p>FAQs</p>
+            </a>
+            <a href="">
+              <p>dealers</p>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-3">
+            <p><span>company</span></p>
+            <a href="Thehoang_contactus.html">
+              <p>contacts</p>
+            </a>
+            <a href="">
+              <p>histories</p>
+            </a>
+            <a href="">
+              <p>retailer</p>
+            </a>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <p><span>internal</span></p>
+            <a href="Thehoang_hiring.html">
+              <p>hiring</p>
+            </a>
+            <a href="">
+              <p>organizations</p>
+            </a>
+          </div>
+          <div class="payment col-xl-4 col-lg-4">
+            <h5>SAFE PAYMENTS</h5>
+            <p>We provide the following payment methods</p>
+            <div class="paymenticon">
+              <i class="fab fa-cc-paypal"></i>
+              <i class="fab fa-cc-jcb"></i>
+              <i class="fab fa-cc-visa"></i>
+              <i class="fab fa-cc-mastercard"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid footerpolicy">
+        <p>© 2022 Skrt Company - All rights reserved - <a href="">Privacy policy</a> - <a href="">Guide</a>
+          <br>Designed & developed by <span>HKT</span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Large Footer -->
+
+  <div class="container-fluid footercontainer p-0 d-lg-none d-block">
+    <div class="subscription">
+      <h1>Subscrible</h1>
+      <p class="signtext">Sign up for receiving our email monthly, when ever we discover new items</p>
+      <div class="formcontainer">
+        <div class="inputform">
+          <input type="text" name="" placeholder="Skateboard@skrt.co.uk">
+          <p>Your Email</p>
+        </div>
+        <button class="btncode ctablack">
+          <p>Sign Up</p>
+        </button>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 576 80" class="heck">
+      <g id="Group_906" data-name="Group 906" transform="translate(-4048 -5619)">
+        <path id="Path_131" data-name="Path 131" d="M0,0H209.614a80,80,0,0,1,80,80H0Z" transform="translate(4048 5619)"/>
+        <path id="Path_130" data-name="Path 130" d="M80,0H286.386V80H0A80,80,0,0,1,80,0Z" transform="translate(4337.614 5619)"/>
+      </g>
+    </svg>
+    <div class="footer">
+      <a href="Phan Dang Khoa_Skrt.html" class="footerlogo">
+        <img src="img/Logo2.png" width="150px">
+      </a>
+      <div class="underlogo">
+        <h5>Let's pray and skate by your passion</h5>
+      </div>
+      <div class="socialmedia">
+        <div class="footericon p-0">
+          <a href="">
+            <span></span>
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="">
+            <span></span>
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="">
+            <span></span>
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="">
+            <span></span>
+            <i class="fal fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="container footerlink p-0">
+        <div class="row p-0">
+          <div class="col-md-12 col-sm-12 col-12">
+            <div id="accordion" class="mx-auto">
+              <div class="row p-0 m-0">
+                <div class="accorwrap" href="#01" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+                  <p><span>support</span></p>
+                </div>
+                <div class="vr"></div>
+                <div class="accorwrap" href="#02" data-toggle="collapse"data-parent="#accordion" aria-expanded="false">
+                  <p><span>company</span></p>
+                </div>
+                <div class="vr"></div>
+                <div class="accorwrap" href="#03" data-toggle="collapse"data-parent="#accordion" aria-expanded="false">
+                  <p><span>internal</span></p>
+                </div>
+              </div>
+              <div id="01" class="collapse link" data-parent="#accordion">
+                <a href="Nguyen Hoang Tuan_Order Status.html" class=""><p>Order Status</p></a>
+                <a href="Thehoang_FAQs.html" class=""><p>FAQs</p></a>
+                <a href="" class=""><p>Dealers</p></a>
+              </div>
+              
+              <div id="02" class="collapse link" data-parent="#accordion">
+                <a href="Thehoang_contactus.html" class=""><p>Contacts</p></a>
+                <a href="" class=""><p>Histories</p></a>
+                <a href="" class=""><p>Retailers</p></a>
+              </div>
+              
+              <div id="03" class="collapse link" data-parent="#accordion">
+                <a href="Thehoang_hiring.html" class=""><p>Hiring</p></a>
+                <a href="" class=""><p>Organization</p></a>
+              </div>
+            </div>
+          </div>
+          <div class="payment col-md-12 col-sm-12 col-12">
+            <h5>SAFE PAYMENTS</h5>
+            <p>We provide the following payment methods</p>
+            <div class="paymenticon">
+              <i class="fab fa-cc-paypal"></i>
+              <i class="fab fa-cc-jcb"></i>
+              <i class="fab fa-cc-visa"></i>
+              <i class="fab fa-cc-mastercard"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid footerpolicy">
+        <p>© 2022 Skrt Company - All rights reserved - <a href="">Privacy policy</a> - <a href="">Guide</a>
+          <br>Designed & developed by <span>HKT</span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Small Footer -->
+
+  <script >
+// tab-contain 1
+const tabs = document.querySelectorAll(".tabs-container .tab");
+const contents = document.querySelectorAll(".tabs-container .content");
+
+const removeActiveClass = () => {
+  tabs.forEach((t) => {
+    t.classList.remove("active");
+  });
+
+  contents.forEach((c) => {
+    c.classList.remove("active");
+  });
+};
+
+tabs.forEach((t, i) => {
+  t.addEventListener("click", () => {
+    removeActiveClass();
+    contents[i].classList.add("active");
+    t.classList.add("active");
+  });
+});
+
+// tab-contain 2
+const tabsmobile = document.querySelectorAll(".tabs-container-mobile .tab-mobile");
+const contentsmobile = document.querySelectorAll(".tabs-container-mobile .content-mobile");
+
+const removeActivemobileClass = () => {
+  tabsmobile.forEach((t) => {
+    t.classList.remove("activemobile");
+  });
+
+  contentsmobile.forEach((c) => {
+    c.classList.remove("activemobile");
+  });
+};
+
+tabsmobile.forEach((t, i) => {
+  t.addEventListener("click", () => {
+    removeActivemobileClass();
+    contentsmobile[i].classList.add("activemobile");
+    t.classList.add("activemobile");
+  });
+});
+
+
+
+  </script>
+
+</body>
+</html>

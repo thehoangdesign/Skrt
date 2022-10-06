@@ -1,0 +1,323 @@
+@charset "utf-8";
+/*CSS Document*/
+:root {
+    --main-color: #18FFBB;
+    --box-shadow:0 0 4px rgb(0, 0, 0, 0.3);
+   
+}
+
+.emailadd, .telephone{
+  font-weight: bold;
+
+}
+.fa-paypal:before{
+  font-size: 30px;
+}
+.fa-credit-card::before {
+  font-size: 30px;
+}
+.fa-wallet::before{
+  font-size: 30px;
+}
+.thongtin{
+  border: #000 1px solid;
+  padding-top: 10px;
+}
+.radio-container{
+  position: relative;
+  display: flex;
+}
+.radio-container .fa-cc-visa, .radio-container .fa-cc-mastercard  {
+  font-size: 30px;
+  user-select: none;
+}
+/*Fun begins*/
+.tab_container {
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 0px;
+	position: relative;
+}
+.tab-content input{
+  display: block;
+}
+.radio-container input{
+  display: none;
+}
+.radio-container input:checked ~ .fa-cc-visa, .radio-container input:checked ~ .fa-cc-mastercard  {
+  color: black;
+  transform: scale(1.2);
+}
+input#tab1, input#tab2, input#tab3, section{
+  display: none;
+  clear: both;
+  padding-top: 10px;
+}
+.tab_container label   {
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+  float: left;
+  width: 33%;
+  padding: 2rem;
+  color: #999;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: #fff;
+}
+.payment_1 {
+  padding: 0;
+}
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+  padding: 20px;
+  background: #fff;
+  color: #000;
+  
+   box-shadow:0 0 8px rgb(0, 0, 0, 0.3); ;
+  
+}
+#sendingmessage_email, #sendingmessage_name,#sendingmessage_phone
+{
+    width: 100%;
+    height: 50px;
+    background:#fff;
+
+    border: #000 0.5px solid;
+    margin-bottom: 1.2rem;
+   
+    padding-left: 10px;
+   
+   
+    color: #000;
+}
+
+.tab_container .tab-content p,
+.tab_container .tab-content text {
+  -webkit-animation: fadeInScale 0.7s ease-in-out;
+  -moz-animation: fadeInScale 0.7s ease-in-out;
+  animation: fadeInScale 0.7s ease-in-out;
+}
+.tab_container .tab-content h3  {
+  text-align: center;
+}
+
+.tab_container [id^="tab"]:checked + label {
+  background: #000;
+  
+}
+
+.tab_container [id^="tab"]:checked + label  {
+  color: #fff;
+}
+.tab_container [id^="tab"]:checked + label p {
+  color: #fff;
+}
+
+label .fa {
+  font-size: 1.3em;
+  margin: 0 0em 0 0;
+}
+label .container1{
+  float:none
+}
+
+
+
+.confirm {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity linear 0.2s;
+
+}
+.confirm:target{
+  visibility: visible;
+  opacity: 1;
+}
+.confi_body{
+  background-color: #000;
+  color:#fff ;
+  float: left;
+}
+.overlay_close{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+}
+.confi_body img{
+  width: 100%;
+}
+.shippinggg{
+  font-size: 36px;
+  margin-top: 30px;
+  margin-left: 30px;
+ }
+
+/*Media query*/
+@media only screen and (max-width: 900px) {
+  
+  
+  .tab_container {
+    width: 98%;
+  }
+}
+
+/*Content Animation*/
+@keyframes fadeInScale {
+  0% {
+  	transform: scale(0.9);
+  	opacity: 0;
+  }
+  
+  100% {
+  	transform: scale(1);
+  	opacity: 1;
+  }
+}
+
+@media (min-width: 1200px){
+  
+  .tab_container label {
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    float: left;
+    width: 33%;
+    padding: 1rem;
+    color: #aaa;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+  }
+  .tab_container label p {
+  font-size: 18px;
+ }
+ .tab_container label i{
+  width: 100%;
+  height: 1px;
+ }
+
+}
+
+/* lg*/
+
+@media (max-width: 1199.9px) and (min-width: 992px){
+   
+  .tab_container label {
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    float: left;
+    width: 33%;
+    
+    padding: 1rem;
+    color: #aaa;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+    
+  }
+  .tab_container label p {
+    font-size: 22px;
+   }
+}
+
+/* md */
+@media (max-width: 991px) and (min-width: 768px){
+  
+  .tab_container label {
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 1rem;
+    color: #aaa;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+  }
+  .shippinggg{
+    font-size: 36px;
+    margin-top: 30px;
+    margin-left: 30px;
+   }
+
+    
+}
+
+
+/* sm */
+
+@media (max-width: 768px) and (min-width: 576px){
+  .tab_container label {
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    float: left;
+    width: 33%;
+    padding: 2rem;
+    color: #aaa;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+  }
+
+}
+
+/* m */
+@media (max-width: 575.9px) and  (min-width: 400px) {
+  .tab_container  label {
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    float: left;
+    width: 33%;
+    padding: rem;
+    color: #aaa;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+  }
+  .shippinggg{
+    font-size: 36px;
+    margin-top: 30px;
+    margin-left: 25px;
+   }
+ 
+}
+
+
+
+
+
+
+
+
+
+#mail{
+  width: 59%;
+}
+#phone{
+  width:39% ;
+}

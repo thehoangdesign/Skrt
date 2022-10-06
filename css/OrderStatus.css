@@ -1,0 +1,221 @@
+@charset "utf-8";
+/*CSS Document*/
+:root {
+    --main-color: #18FFBB;
+    --box-shadow:0 0 4px rgb(0, 0, 0, 0.3);
+   
+}
+
+html {
+    scroll-behavior: smooth;
+    
+
+}
+#searchfill{
+    position: relative;
+    display: flex;
+    margin-top: 130px;
+}
+.fillcontainer{
+    position: relative;
+    display: block;
+    width: 50%;
+}
+.imgcontainer{
+    position: relative;
+    display: block;
+    width: 50%;
+    height: auto;
+}
+.setwidth{
+    width: 80%;
+    margin-right: auto;
+}
+.fillcontainer .bill{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.fillcontainer input{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.fillcontainer button{
+    margin-top: 30px;
+}
+.imgcontainer img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.chia {
+    border-top: #aaa solid 1px;
+    width: 50%;
+    margin-top: 70px;
+}
+.day{
+    margin-left: 1550px;
+}
+#orderstatus {
+    position: relative;
+    display: block;
+    margin-top: 10x;
+}
+#orderstatus .status{
+    position: relative;
+    display: block;
+    width: 100% ;
+    /* border-top: 1px solid #aaa; */
+    padding-top: 20px;
+}
+#orderstatus .mavan{
+    font-size: 34px;
+    margin-bottom: 16px;
+}
+#orderstatus .ordercontainer{
+    position: relative;
+    display: flex;
+    margin-top: 26px;
+}
+#orderstatus .ordercontainer img{
+    width: 150px;
+    height: auto;
+}
+#orderstatus .ordercontainer .tensp{
+    font-size: 24px;
+    font-weight: bold;
+}
+#orderstatus .status .btn11111{
+    position: absolute;
+}
+.ordercontainer .thongtin .process {
+    color: #aaa;
+}
+.btn-billcode {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 80px
+
+}
+.mavan {
+    font-size: 20px;
+    font-weight: bold;
+    color: #aaa;
+}
+.maso {
+    font-size: 34px;
+    font-weight: bold;
+    
+}
+@media (min-width: 1200px){
+ 
+   
+}
+@media (max-width: 1200px){
+ 
+    .day {
+        margin-left: 680px;
+    }
+}
+
+@media(max-width:991px) {
+    .fillcontainer{
+        width: 100%;
+    }
+    .fillcontainer .setwidth{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+/* lg*/
+
+@media (max-width: 1199.9px) and (min-width: 992px){
+   
+    #orderstatus .status{
+        position: relative;
+        display: block;
+        width: 95%;
+        padding-top: 50px;
+    }
+    .chia {
+        border-top: #aaa solid 1px;
+        width: 50%;
+        margin-top: 70px;
+    }
+    .day {
+        margin-left: 450px;
+    }
+}
+
+/* md */
+@media (max-width: 991px) and (min-width: 768px){
+    #orderstatus .status{
+        position: relative;
+        display: block;
+        width: 95%;
+        padding-top: 50px;
+    }
+    .chia {
+        border-top: #aaa solid 1px;
+        width: 50%;
+        margin-top: 70px;
+    }
+    .day {
+        margin-left: 260px;
+    }
+   
+}
+
+
+/* sm */
+
+@media (max-width: 767.9px) and (min-width: 576px){
+    .day {
+        margin-left: 100px;
+    }
+    
+    #orderstatus{
+        padding-bottom: 100px;
+    }
+    .search{
+        margin-left: 150px;
+    }
+    #orderstatus .status .btn11111 {
+        margin-top: 130px;
+        margin-right: 160px;
+
+    
+}
+}
+/* m */
+@media (max-width: 575.9px) and  (min-width: 400px) {
+
+    .day {
+        margin-left: 30px;
+    }
+    
+    #orderstatus{
+        padding-bottom: 100px;
+    }
+    .search{
+        margin-left: 110px;
+    }
+    #orderstatus .status .btn11111 {
+        margin-top: 130px;
+        margin-right: 130px;
+
+    
+}
+}
+
+@media (max-width:399.9px) and (min-width: 319px){
+
+ 
+}
+

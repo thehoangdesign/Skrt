@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*CSS Document*/
+:root {
+    --main-color: #18FFBB;
+    --box-shadow:0 0 4px rgb(0, 0, 0, 0.3);
+
+   
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+/* Keep in tough */
+
+#sendingmessage_email, #sendingmessage_name, #sendingmessage_phone
+{
+    width: 100%;
+    height: 50px;
+    background:#fff;
+
+    border: #000 0.5px solid;
+    margin-bottom: 1.2rem;
+    
+    padding-left: 10px;
+    
+   
+    color: #000;
+}
+#dis{
+  width: 100%;
+    height: 50px;
+    background:#fff;
+
+    border: #000 0.5px solid;
+    margin-bottom: 1.2rem;
+    
+    
+    
+    
+   
+    color: #000;
+}
+.discount{
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+}
+#sendingmessage_text {
+    width: 100%;
+    height: 200px;
+    background:white;
+    border: black 0.5px solid;
+    margin-bottom: 1rem;
+    
+    padding-left: 10px;
+    padding-top: 10px;
+      
+    color: #757575;
+    
+}
+

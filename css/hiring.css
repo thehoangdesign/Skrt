@@ -1,0 +1,482 @@
+@charset "utf-8";
+/*CSS Document*/
+:root {
+    --main-color: #18FFBB;
+    --box-shadow:0 0 4px rgb(0, 0, 0, 0.3);
+   
+}
+
+html {
+    scroll-behavior: smooth;
+font-size: 100%;
+   
+
+}
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+@font-face {
+    font-family: titlefont;
+    src: url(../Font/head-turner-display-font-1/FONT/Head-Turner.ttf);
+}
+
+@font-face {
+    font-family: bodyfont;
+    src: url(../Font/Josefin_Sans/static/JosefinSans-Regular.ttf )
+}
+
+
+
+  #hiring_banner {
+    
+    background-size: cover;
+    background-image: url(../img/hiring1.jpg);
+    background-repeat: no-repeat;
+   width: 100%;
+    
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 2.5rem;
+}
+
+.hiring_content {
+    position: absolute;
+    
+    left: 5%;
+    top: 40%;
+}
+
+h1.hiring_heading:before {
+    content: "Drive your career";
+    text-align: left;
+}
+
+#contactus-hiring:before {
+    content: "Contact US";
+    
+}
+
+.hiring_heading {
+    font-family: titlefont;
+    color: var(--main-color);
+
+}
+
+.hiring_subheading {
+    font-family: bodyfont;
+    color: white;
+}
+
+
+/* body  */
+  
+.heading_hiring {
+    font-family: titlefont;
+    color: var(--main-color);
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+/* hỉing -job */
+.tabs-container {
+    font-family: bodyfont;
+    width: 100%;
+   
+    margin: 30px auto;
+    display: flex;
+    
+  }
+  
+  .tabs-container .tabs {
+    width: 300px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .tabs-container .tabs .tab {
+    padding: 24px 32px;
+   
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+    font-family: bodyfont;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  
+  }
+  
+  .tabs-container .tabs .tab.active {
+    /* background: #18FFBB; */
+    color:#18FFBB ;
+    /* text-decoration: underline; */
+    font-size: 1.5rem;
+  
+  }
+  
+  
+  .cont1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 32px;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    margin-right: 1rem;
+  }
+
+  .tabs-container .content-container {
+    width: 100%;
+  }
+  
+  .tabs-container .content-container .content {
+    display: none;
+    padding: 32px;
+    width: 100%;
+  }
+  
+  .tabs-container .content-container .content.active {
+    display: block;
+  }
+  
+  .tabs-container .content-container h3 {
+    margin: 0;
+    
+    color: white;
+  }
+  
+  .tabs-container .content-container p {
+    line-height: 2;
+    color: white;
+  
+  }
+  
+  .content-container .content {
+   margin-bottom: 1rem;
+  }
+.subtitle-job-hiring-details svg {
+    margin-bottom: 7px;
+    margin-right: 5px;
+}
+
+.hiring_salary {
+    margin-left: 2rem;
+}
+
+.hiring-location {
+    text-align: right;
+}
+
+/* hiring mobile */
+
+
+/* hỉing -job */
+.tabs-container-mobile {
+    font-family: bodyfont;
+    width: 100%;
+   
+    margin: 30px auto;
+    display: flex;
+    
+  }
+  
+  .tabs-container-mobile .tabsmobile {
+   width: 100%;
+    background: #fff;
+    color: #757575;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .tabs-container-mobile .tabsmobile .tab-mobile {
+    padding: 24px 32px;
+   
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+    font-family: bodyfont;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  color: #757575;
+  }
+  
+  .tabs-container-mobile .tabsmobile .tab-mobile.activemobile {
+    /* background: #18FFBB; */
+    color:#000 ;
+    /* text-decoration: underline; */
+    font-size: 1.5rem;
+  
+  }
+  
+  
+  .cont1-mobile {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 32px;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    /* margin-right: 1rem; */
+  }
+
+  .content-container-mobile {
+    width: 100%;
+  }
+  
+  .tabs-container-mobile .content-container-mobile .content-mobile {
+    display: none;
+    padding: 0 8px;
+  }
+  
+  .tabs-container-mobile .content-container-mobile .content-mobile.activemobile {
+    display: block;
+  }
+  
+  .tabs-container-mobile .content-container-mobile h3 {
+    margin: 0;
+    
+    color: white;
+  }
+  
+  .tabs-container-mobile .content-container-mobile p {
+    line-height: 2;
+    color: white;
+  
+  }
+  
+  .content-container-mobile .content-mobile {
+   margin-bottom: 1rem;
+  }
+.subtitle-job-hiring-details svg {
+    margin-bottom: 7px;
+    margin-right: 5px;
+}
+
+.hiring_salary {
+    margin-left: 2rem;
+}
+
+.hiring-location {
+    text-align: right;
+}
+
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.filter-job {
+    text-align: right;
+    padding-right: 1rem;
+}
+.jobfilter-svg {
+    margin-bottom: 0.4rem;
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: white;
+}
+
+h1.heading_hiring:before {
+    content: "Join a team and inspire the work";
+}
+
+h1.mraginplus:before {
+    content: "Peaks and Benefits";
+}
+
+.cont1, .cont1-mobile {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.btn-hiring {
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem;
+}
+
+#hiring_banner .hiring_heading {
+    margin-bottom: 1.5rem;
+}
+
+.btn-hiring-heading {
+    margin-top: 1.5rem;
+}
+  
+
+@media (min-width: 1200px){
+    /* Something is Fixed */
+    .hiring_comprehen {
+        padding: 0 5%;
+        
+    }
+
+    .hiring_comprehen-benefit {
+        padding: 0 10%;
+    }
+
+    #hiring_banner {
+        height: 800px;
+        margin-bottom: 5rem;
+    }
+
+    .mraginplus {
+        margin-bottom: 2rem;
+    }
+
+    .contact_sendmessage-hiring  {
+      padding:  2.5rem 0;
+      padding-bottom: 5rem;
+    }
+
+
+}
+
+
+
+/* lg*/
+
+@media (max-width: 1199.9px) and (min-width: 992px){
+    #hiring_banner {
+        height: 600px;
+    }
+    .contact_sendmessage-hiring  {
+        padding-bottom: 2.5rem;
+    }
+
+}
+
+/* md */
+@media (max-width: 991px) and (min-width: 768px){
+    #hiring_banner {
+        height: 600px;
+    }
+
+    .hiring-location {
+        margin-top: 1rem;
+        text-align: left;
+    }
+
+    .contact_sendmessage-hiring  {
+        padding-bottom: 2.5rem;
+    }
+   
+
+  
+   
+}
+
+
+/* sm */
+
+@media (max-width: 768px) and (min-width: 576px){
+    #hiring_banner {
+        height: 500px;
+    }
+
+    .hiring-location {
+        margin-top: 1rem;
+        text-align: left;
+    }
+
+    .contact_sendmessage-hiring  {
+        padding-bottom: 2.5rem;
+    }
+  
+}
+
+/* m */
+@media (max-width: 575.9px) and  (min-width: 400px) {
+    #hiring_banner {
+        height: 300px;
+    }
+    .hiring-location {
+        margin-top: 1rem;
+        text-align: left;
+    }
+ 
+}
+
+@media (max-width:399.9px) and (min-width: 319px){
+    #hiring_banner {
+        height: 300px;
+    }
+    .hiring-location {
+        margin-top: 1rem;
+        text-align: left;
+    }
+}
+
+.dropdown-filter {
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+
+
+/* benefit hiring */
+ .benefit_hiring-title {
+    font-family: bodyfont;
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding-right: 1rem;
+
+ }
+
+ .benefit_hiring-title  svg {
+margin-bottom: 10px;
+ }
+
+
+ .benefit_hiring-subtitle {
+    font-family: bodyfont;
+    font-size: 1rem;
+    margin-left: 36px;
+    padding-right: 1rem;
+ }
+
+ .details-benefit {
+
+    margin-bottom: 1rem;
+ }
+
+ .hiring_comprehen-benefit {
+    margin-bottom: 2.5rem;
+ }
+
+ .naviheader .instacontainer {
+    color: #000 !important;
+  z-index: 100;
+  }
+  .naviheader {
+    color: #000;
+  }
+  
+
+
+
+
+  
+
+
+
+
+
+
+.dropdown-filter {
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+

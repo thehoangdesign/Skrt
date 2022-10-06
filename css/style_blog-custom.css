@@ -1,0 +1,26 @@
+/*
+h1:before{
+	content: "content";
+	text-align: center;
+	text-stroke: 1px black;
+	-webkit-text-stroke: 1px black;
+	-webkit-text-stroke-color: var(--neon);
+}
+.btncode{
+	min-width: 200px;
+	height: 50px;
+}
+*/
+#blog_body_2 h1::before{
+	content: "";
+} 
+.lastest_blog:before{
+	content: "";
+	text-align: left ;
+	-webkit-text-stroke: 1px black;
+} 
+.lastest_blog_3:before{
+	content: "Don't Miss";
+	
+	-webkit-text-stroke: 1px black;
+} 

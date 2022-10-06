@@ -1,0 +1,442 @@
+@charset "utf-8";
+/*CSS Document*/
+:root {
+    --main-color: #18FFBB;
+    --box-shadow:0 0 4px rgb(0, 0, 0, 0.3);
+   
+}
+.promocontainer{
+  position: relative;
+  display: block;
+  padding: 0px 15px;
+  background-color: #f6f6f6;
+}
+.promoform{
+	position: relative;
+	display: block;
+  margin: 0px ;
+  width: 100%;
+}
+.promoform input{
+	border: none;
+	outline: none;
+	width: 100%;
+	padding: 10px 5px 7px 10px;
+}
+.promoform svg{
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	right: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	fill: #aaa;
+}
+.promoform input:focus ~ svg{
+	fill: black;
+}
+.logocontainer{
+	margin-top: 30px;
+}
+.logocontainer img{
+	width: 120px;
+	filter: saturate(170%);
+  margin-left: 15px;
+}
+.breakcrumb{
+	position: relative;
+	display: block;
+	color: black;
+	margin-top: 20px;
+}
+.breakcrumb ul{
+	position: relative;
+	display: flex;
+	list-style-type: none;
+}
+.breakcrumb ul svg{
+	width: 15px;
+	height: 15px;
+	margin: 0px 6px;
+	margin-top: 5px;
+	transform: rotate(180deg);
+	fill: #aaa;
+}
+.breakcrumb ul li a{
+	color: #aaa;
+	text-decoration: none;
+	cursor: pointer;
+	pointer-events: auto;
+	font-size: 16px;
+  padding-left: 15px;
+}
+.breakcrumb ul li.active a{
+	color: black;
+	pointer-events: none;
+	user-select: none;
+}
+
+#checkout {
+    background-color:  white;
+}
+.ward, .district{ 
+    width: 150px;
+    height: 50px;
+}
+.city {
+    height: 50px;
+}
+/* The container */
+.container1 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 16px;
+    margin-left: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+ 
+  .checkmark_1 {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border :#000 1px solid;
+  }
+  /* On mouse-over, add a grey background color */
+ 
+  .container1:hover input ~ .checkmark_1 {
+    background-color: #fff;
+    
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  
+  .container1 input:checked ~ .checkmark_1 {
+    background-color:#000;
+
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+ 
+  .checkmark_1:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  /* Show the checkmark when checked */
+ 
+  .container1 input:checked ~ .checkmark_1:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  
+  .container1 .checkmark_1:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  margin-top: 40px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #000;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.khungtrang{
+    background-color: #fff;
+    height: 100px;
+    
+    box-shadow: var(--box-shadow);
+    margin-top: 24px;
+    padding-left: 15px;
+}
+.khungtrang p {
+    margin-top: 16px;
+}
+.sp_1 img {
+    width: 80%;
+    margin-top: -16px;
+    margin-bottom: 48px;
+
+}
+.sp_2 img {
+    width: 70%;
+    margin-top: 10px;
+}
+.sp_2, .body_sp_2, .gia_2{
+    background-color: #f6f6f6;
+    height: auto;
+}
+.gia_sp {
+    text-align: right;
+
+}
+.total_pay{
+  font-weight: bold;
+  font-size: 24px;
+}
+.pay_gia{
+  font-weight: bold;
+  font-size: 24px;
+}
+.total_price, .gia_bill, .total_to_pay, .pay{
+    background-color:#f6f6f6 ;
+
+}
+.gia_bill, .pay{
+    text-align: right;
+}
+.ten_sp{
+  font-weight: bold;
+  font-size: 24px;
+}
+.gia_sp{
+  font-weight: bold;
+  font-size: 24px;
+}
+.gift{
+  font-weight: bold;
+  font-size: 24px;
+  
+}
+.backtoshop  {
+  margin-top: 32px;
+}
+.back {
+  text-decoration: none;  
+  list-style-type: none;
+  color: #000;
+   
+}
+a:hover{
+  text-decoration: none;
+}
+.back span{
+font-size: 24px;
+margin-left: 10px;
+}
+.back span:hover{
+  text-decoration: none;
+  color:black;
+
+}
+.confi {
+  padding: 32px 15px;
+  display: flex;
+  justify-content: end;
+
+}
+.lastest_blog_1{
+  font-size: 48px;
+}
+.lastest_blog_2{
+  margin-bottom: 24px;
+  font-size: 36px;
+}
+.lastest_blog{
+  margin-bottom: 24px;
+  margin-left: 15px;
+  margin-top: 30px;
+  font-size: 36px;
+}
+.lastest_blog_2{
+  margin-top: 30px;
+}
+.shipping{
+  margin-top: 30px;
+}
+.shipping{ 
+  font-size: 36px;
+  margin-left: 15px;
+}
+ 
+
+#checkout .accordion{
+  position: relative;
+  display: flex;
+}
+#checkout .accordion p{
+  display: inline-block;
+  font-weight: bold;
+  pointer-events: none;
+  user-select: none;
+}
+#checkout .accordion p span{
+  color: #aaa;
+  font-size: 14px;
+  font-weight: normal;
+}
+#checkout .collapse{
+  user-select: none;
+}
+@media(max-width:991px){
+  .back:hover{
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 1200px){
+  #checkout{
+    padding: 0 5% !important;
+  }
+   .gift{
+    margin-top: 50px;
+    font-size: 24px;
+   }
+   .gia_2 {
+    padding-top: 30px;
+   }
+   .break {
+    padding: 0 5%;
+  }
+
+}
+@media (max-width: 1200px){
+  
+  .break {
+    padding: 0 5%;
+  }
+  .gift{
+    
+    font-size: 24px;
+   }
+}
+/* lg*/
+
+@media (max-width: 1199.9px) and (min-width: 992px){
+  .sp_1 img {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 16px;
+
+}
+.sp_2 img {
+    width: 70%;
+    margin-top: 10px;
+}
+  .body_sp {
+    padding: 0;
+  }
+  .ten_sp, .gia, .gift{
+    margin-bottom: 0;
+    margin-top: 16px  ;
+    font-size: 20px;
+  }
+}
+/* md */
+@media (max-width: 991px) and (min-width: 768px){
+  .break {
+    padding: 0 ;
+  }
+  }
+  
+  
+  /* sm */
+  
+  @media (max-width: 767.9px) and (min-width: 576px){
+    .break {
+      padding: 0 ;
+    }
+	
+  }
+  
+  /* m */
+  @media (max-width: 575.9px) and  (min-width: 400px) {
+	
+   .container{
+    font-size: 20px;
+   }
+   .lastest_blog{
+    margin-bottom: 24px;
+    margin-top: 30px;
+    font-size: 36px;
+  }
+  }

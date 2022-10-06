@@ -1,0 +1,279 @@
+body{
+	color: #fff;
+	background-color: black;
+}
+.naviheader .instacontainer{
+	color: black;
+}
+.hello{
+	position: relative;
+	display: block;
+	background-color: rgba(0, 0, 0, 1.0);
+	padding-top: 6%;
+}
+.hello h1{
+	font-size: 100px;
+	color: var(--neon);
+	filter: saturate(170%);
+}
+.hello h1 span{
+	white-space: nowrap;
+}
+.hello h1:before{
+	content: "";
+}
+.hello p{
+	margin-top: 5%;
+	width: 700px;
+}
+.hello img{
+	margin-top: 4%;
+}
+
+.about{
+	position: relative;
+	display: block;
+	background-color: rgba(0, 0, 0, 1.0);
+	padding-top: 6%;
+}
+.about .row{
+	margin-top: 5%;
+}
+.about h1{
+	color: var(--neon);
+	filter: saturate(170%);
+}
+.about h1:before{
+	content: "About";
+	text-align: left;
+	-webkit-text-stroke-color: var(--neon);
+}
+.about p{
+	width: 600px;
+}
+.about .hellotext1{
+	margin-bottom: 3%;
+}
+.ceo{
+	margin-top: 4%;
+	background-color: rgba(0, 0, 0, 1.0);
+	margin-bottom: 10%;
+}
+.ceo .owl-stage-outer{
+}
+.ceo .owl-stage .owl-item:nth-child(1){
+	left: -100%;
+}
+.ceo .wrap{
+	margin: auto;
+}
+.ceo .wrap img{
+	width: 90%;
+}
+.ceo .wrap p{
+	margin-top: 15px;
+}
+.ceo .wrap p span{
+	white-space: nowrap;
+}
+.hwm{
+	position: relative;
+	display: block;
+	background-color: black;
+}
+.hwm .bandrollhwm{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	inset: 0;
+	background: url(../img/howwemade.webp);
+	filter: saturate(200%);
+	-webkit-animation: bandroll1 50s linear infinite;
+	animation: bandroll1 50s linear infinite;
+	background-size: contain;
+	background-repeat: repeat-x;
+
+}
+.numberhwm{
+	position: relative;
+	display: block;
+	background-color: black;
+}
+.numberhwm .wrap h1{
+	text-align: center;
+	font-size: 300px;
+	color: white;
+	opacity: .3;
+	z-index: 1;
+}
+.numberhwm .wrap h1:before{
+	content: "";
+}
+.owl-two .owl-stage{
+	padding: 5% 0px;
+}
+.owl-two .wrap{
+	width: 50%;
+	margin: auto;
+}
+.owl-two .wrap img{
+	filter: saturate(0);
+	transform: scale(.9);
+	z-index: 10;
+	margin-top: 50%;
+	transition: all ease-in .2s;
+}
+.owl-two .owl-item.active.center img{
+	filter: saturate(100%);
+	transform: rotate(10deg) scale(1.1);
+	transition: all ease-out .4s;
+}
+.owl-two .wrap h1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	opacity: 0;
+	transition: all ease-in .2s;
+}
+.owl-two .owl-item.active.center h1{
+	opacity: .3;
+	transition: all ease-out .4s;
+	z-index: 1;
+}
+.nextprj{
+	height: 100vh;
+	min-height: 600px;
+	max-height: 1000px;
+	background-image: url(../img/man.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: ;
+	background-position: center;
+	margin: 20% 0px 10% 0px;
+}
+.nextproject{
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 5%;
+}
+.nextproject h1{
+	font-size: 90px;
+	color: var(--neon);
+	filter: saturate(170%);
+}
+.nextproject h1:before{
+	content: "Next Project";
+	-webkit-text-stroke-color: var(--neon);
+}
+.nextproject p{
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+.npimage1{
+	position: relative;
+	display: flex;
+}
+.npimage1 .image1, .npimage1 .image2{
+	width: 49%;
+}
+.npimage1 .image1 img, .npimage1 .image2 img{
+	width: 100%;
+}
+.npimage1 .wrap{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.npimage1 .wrap img{
+	width: 100%;
+	height: 100%;
+	transition: all .2s ease-out;
+}
+
+.npimage1 .wrap:hover img{
+	box-shadow: inset 0 0 10px #191919;
+	transform: scale(1.1);
+	transition: all 0.5s ease-out;
+	filter: brightness(75%);
+}
+
+.npimage2{
+	position: relative;
+	display: block;
+	margin-top: 4%;
+}
+.npimage2 .wrap{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.npimage2 .wrap img{
+	width: 100%;
+	height: 100%;
+	transition: all .2s ease-out;
+}
+.npimage2 .logow{
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 100000;
+	pointer-events: none;
+}
+/*Hover*/
+@media(min-width: 992px){
+	.npimage2 .wrap:hover img{
+		box-shadow: inset 0 0 10px #191919;
+		transform: scale(1.1);
+		transition: all 0.5s ease-out;
+		filter: brightness(75%);
+	}
+
+}
+/*Respondsive*/
+@media(max-width: 991px){
+	.hello p{
+		width: 100%;
+	}
+	.about p{
+		width: 100%;
+	}
+	.hwm .bandrollhwm{
+		-webkit-animation: bandroll1 80s linear infinite;
+		animation: bandroll1 80s linear infinite;
+	}
+	.ceo .owl-item .wrap p{
+		opacity: 0;
+		transition: all ease-in .2s;
+	}
+	.ceo .owl-item.active.center .wrap p{
+		opacity: 1;
+		transition: all ease-out .2s;
+	}
+	.numberhwm .wrap h1{
+		font-size: 190px;
+	}
+}
+@media(max-width: 767px){
+		.numberhwm .wrap h1{
+		font-size: 140px;
+	}
+}
+
+@media(min-width: 1201px){
+}
+@media(min-width: 992px) and (max-width: 1200px){
+}
+@media(min-width: 768px) and (max-width: 991px){
+}
+@media(min-width: 576px) and (max-width: 767px){
+}
+@media(max-width: 575px){
+}

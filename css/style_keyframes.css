@@ -1,0 +1,79 @@
+@keyframes menuIconWaves{
+	0%{
+		transform:translateX(0)
+	}
+	100%{
+		transform:translateX(-25px)
+	}
+}
+
+@keyframes menuIconWaves2{
+	0%{
+		transform:translateX(0)
+	}
+	100%{
+		transform:translateX(25px)
+	}
+}
+
+@keyframes loginsmall{
+	0%{
+		transform: scale(1.0);
+	}
+	20%{
+		transform: scale(.8);
+	}
+	80%{
+		transform: scale(.8);
+	}
+	100%{
+		transform: scale(1.0);
+	}
+}
+@keyframes bandroll1{
+	from{
+		background-position: 0 0;
+	}
+	to{
+		background-position: 10000px 0;
+	}
+}
+@keyframes bandroll2{
+	from{
+		background-position: 0 0;
+	}
+	to{
+		background-position: -10000px 0;
+	}
+}
+
+@keyframes translateX {
+	0%{
+		opacity: 0;
+		transform: translateX(60px);
+	}
+	80%{
+		transform: translateX(-5px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+@keyframes translate-l-r{
+	from{
+		transform: translateX(-50%);
+	}
+	to{
+		transform: translateX(0);
+	}
+}
+@keyframes translate-r-l{
+	from{
+		transform: translateX(0%);
+	}
+	to{
+		transform: translateX(-50%);
+	}
+}

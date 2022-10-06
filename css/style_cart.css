@@ -1,0 +1,404 @@
+.logocontainer{
+	margin-top: 30px;
+}
+.logocontainer img{
+	width: 120px;
+	filter: saturate(170%);
+}
+.breakcrumb{
+	position: relative;
+	display: block;
+	color: black;
+	margin-top: 20px;
+}
+.breakcrumb ul{
+	position: relative;
+	display: flex;
+	list-style-type: none;
+}
+.breakcrumb ul svg{
+	width: 15px;
+	height: 15px;
+	margin: 0px 6px;
+	margin-top: 5px;
+	transform: rotate(180deg);
+	fill: #aaa;
+}
+.breakcrumb ul li a{
+	color: #aaa;
+	text-decoration: none;
+	cursor: pointer;
+	pointer-events: auto;
+	font-size: 16px;
+}
+.breakcrumb ul li.active a{
+	color: black;
+	pointer-events: none;
+	user-select: none;
+}
+
+.colright{
+	position: fixed;
+	display: block;
+	right: 0;
+	width: 33%;
+	max-width: 450px;
+	min-width: 400px;
+	background-color: #f6f6f6;
+	height: 100%;
+	z-index: 2;
+}
+.colright .right{
+	position: sticky;
+	position: -webkit-sticky;
+	display: block;
+	overflow-y: scroll;
+	background-color: #f6f6f6;
+	top: 10vh;
+	width: 100%;
+	padding: 10% 10%;
+}
+.right .order{
+	text-align: center;
+	font-family: Fonth;
+	font-size: 36px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #aaa;
+}
+.right .items{
+	position: relative;
+	display: flex;
+}
+.right .items.frontitems{
+	font-weight: bold;
+}
+.right .promo{
+	font-weight: bold;;
+}
+.promoform{
+	position: relative;
+	display: block;
+}
+.promoform input{
+	border: none;
+	outline: none;
+	width: 100%;
+	padding: 10px 5px 7px 10px;
+}
+.promoform svg{
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	right: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	fill: #aaa;
+}
+.promoform input:focus ~ svg{
+	fill: black;
+}
+.right .items.backitems{
+	border-top: 1px solid #aaa;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+.right .items.lastitems{
+	font-weight: bold;
+	margin-top: 30px;
+}
+.right .items.lastitems p{
+	font-size: 24px;
+}
+.right .items.lastitems span{
+	font-weight: normal;
+	font-size: 14px;
+	color: #aaa;
+	margin-left: 2px;
+}
+.right a{
+	text-decoration: none;
+}
+.right button.ctablack{
+	margin-top: 20px;
+	width: 100%;
+}
+.right button.sablack{
+	margin-top: 25px;
+	width: 100%;
+}
+.colleft{
+	padding-left: calc(33vw*.1);
+}
+.leftbody{
+	height: 100vh;
+	width: calc((100vw - 410px - 3.5vw)*.95);
+}
+.leftbody h1{
+	margin-top: 20px;
+	color: black;
+}
+.leftbody h1:before{
+	content: "";
+}
+.leftbody h1 span{
+	font-family: Fontt;
+	color: #aaa;
+	font-size: 30px;
+}
+.leftbody h1 span span{
+	color: black;
+	font-weight: bold;
+}
+.leftbody table{
+	margin-top: 30px;
+}
+.leftbody table tr{
+	border-bottom: 1.2px solid #aaa;
+	font-weight: bold;
+}
+.leftbody table td{
+	position: relative;
+	vertical-align: text-bottom;
+}
+.leftbody table tr th:nth-child(1) p{
+	margin: 0px;
+	margin-left: 15%;
+}
+.leftbody tr th:nth-child(1){
+	width: 15%;
+	max-width: 160px;
+	min-width: 140px;
+}
+.leftbody th:nth-child(2){
+}
+.leftbody th:nth-child(3){
+	text-align: center;
+}
+.leftbody th:nth-child(4){
+	text-align: center;
+	padding: 0px 10px;
+}
+.leftbody th:nth-child(5){
+	min-width: ;
+	text-align: center;
+}
+.leftbody th:nth-child(6){
+	width: 10px;
+}
+.leftbody tr td img{
+	padding: 10px 0px;
+}
+.buttons_added{ 
+	display: flex;
+	white-space: nowrap;
+	vertical-align: top;
+	margin-top: -6px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 110px;
+}
+.is-form{
+	overflow: hidden;
+	position: relative;
+	background-color: #fff;
+	height: 35px;
+	width: 30px;
+	text-shadow: 1px 1px 1px #fff;
+	border: 1px solid #aaa;
+}
+.is-form:focus,.input-text:focus {
+	outline: none;
+}
+.is-form.minus {
+	border-right: none;
+}
+.is-form.plus {
+	border-left: none;
+}
+.input-qty{
+	background-color: #fff;
+	width: 50px;
+	height: 35px;
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	border-left: 0px;
+	border-right: 0px;
+	padding-top: 5px;
+	transition: all ease .5s;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+	-webkit-appearance:none;
+	margin: 0px;
+}
+
+.colleft .prodhead{
+	font-size: 24px;
+	margin: 0px;
+	padding-right: 10px;
+}
+.colleft .prodtext{
+	font-weight: normal;
+	color: #aaa;
+}
+.colleft .prodprice{
+	text-align: center;
+	white-space: nowrap;
+}
+.colleft .size{
+	text-align: center;
+}
+.colleft .btncontainer{
+	position: relative;
+	display: block;
+}
+.colleft .td2{
+	vertical-align: middle;
+}
+.colleft .closebtn{
+	outline: none;
+	border: none;
+	background-color: white;
+	font-weight: bold;
+	font-size: 16px;
+	color: #aaa;
+}
+.colleft .closebtn:active{
+	color: black;
+}
+.policydiscount{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	padding-left: calc(33vw*.1);
+	background-color: white;
+	z-index: 1;
+}
+@media(max-width: 991px){
+	.logosm{
+		width: 100%;
+		filter: saturate(170%);
+		text-align: center;
+		padding-top: 20px;
+	}
+	.logosm img{
+		width: 20%;
+		max-width: 120px;
+		min-width: 100px;
+		user-select: none;
+		cursor: pointer;
+	}
+	.breakcrumb{
+		width: 100%;
+	}
+	.h1sm{
+		margin-top: 15px;
+		color: black;
+	}
+	.h1sm:before{
+		content: "";
+	}
+	.itemsinbag{
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 5px;
+		margin-top: 10px;
+	}
+
+	.cartsm{
+		position: relative;
+		display: flex;
+		border-top: 1px solid #aaa;
+		padding: 25px 0px;
+	}
+	.cartsm .imgsm{
+		width: 30%;
+		max-width: 210px;
+		min-width: 180px;
+	}
+	.infocartsm{
+		width: 100%;
+		padding-left: 2%;
+	}
+	.nametabsm{
+		position: relative;
+		display: flex;
+	}
+	.nametabsm .prodhead{
+		font-size: 24px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	.nametabsm .closebtn{
+		background-color: white;
+		border: none;
+		outline: none;
+		color: #aaa;
+		font-weight: bold;
+		font-size: 14px;
+		height: 40px;
+	}
+	.nametabsm .closebtn:active{
+		color: black;
+	}
+	.infocartsm .sizesm{
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 0px;
+	}
+	.infocartsm .prodtext{
+		color: #aaa;
+		font-size: 18px;
+	}
+	.quantityandprice{
+		position: relative;
+		bottom: 0;
+		display: flex;
+		padding-top: 18px;
+	}
+	.infocartsm .prodpricesm{
+		font-weight: bold;
+		font-size: 24px;
+		margin-bottom: 0px;
+	}
+	.buttons_added{
+		margin-top: -10px;
+	}
+	.odersm{
+		position: relative;
+		display: block;
+		background-color: #f6f6f6;
+		margin-top: 100px;
+	}
+	.right{
+		position: relative;
+		display: block;
+		padding: 8% 0px;
+		padding-bottom: 15% !important;
+	}
+	.btncontainersm{
+		position: relative;
+		display: inline-flex;
+		width: 100%;
+	}
+	.btncontainersm a{
+		width: 48.5%;
+		padding-top: 5%;
+	}
+	.right button.ctablack{
+		margin-top: 0px;
+		width: 100%;
+	}
+	.right button.sablack{
+		margin-top: 0px;
+		width: 100%;
+	}
+}

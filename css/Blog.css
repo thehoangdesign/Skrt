@@ -1,0 +1,274 @@
+@charset "utf-8";
+/*CSS Document*/
+:root {
+    --main-color: #18FFBB;
+    --box-shadow:0 0 4px rgb(0, 0, 0, 0.3);
+   
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+
+}
+a{
+  text-decoration: none;
+}
+
+
+#blog_head {
+    margin-top: 105px;
+    background-color: black;
+
+}
+.tacgia{
+  font-size: 20px;
+  
+}
+.hastag{
+  color: #aaa;
+}
+.tieude{
+  font-size: 24px;
+  font-weight: bold;
+}
+.blog_pic {
+  margin: 0;
+}
+.blog_pic img {
+  width: 100%;
+  margin-top: 20px ;
+  
+}
+a:hover {
+  text-decoration: none;
+}
+.content_blog {
+  margin: 0;
+}
+.heading_blog {
+  font-size: 3.438rem;
+  color: #18FFBB;
+  
+  font-weight: 400;
+  font-weight: 700  ;
+}
+.sub_blog {
+  font-size: 1rem;
+  
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+}
+.bottom{
+  margin-bottom: 56px;
+}
+.pic {
+   margin-top:  16px;
+}
+.content_blog_2 h1{
+  color: var(--neon);
+  filter: saturate(170%);
+}
+.content_blog_2 h1:before{
+  content: 'Tokyo, One Year On ';
+  text-align: left;
+}
+.content_blog_1 h1{
+  color: var(--neon);
+  filter: saturate(170%);
+}
+.content_blog_1 h1:before{
+  content: 'WSS SF 2022 ';
+  text-align: left;
+}
+.lastest_blog, .lastest_blog_3 {
+  font-size: 3rem;
+  
+  margin-top: 40px;
+}
+.pic, .content_body_blog {
+  margin-top: 16px;
+}
+.loadmore {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 700px;
+  
+}
+.blog_body_pic{
+  margin: 0;
+}
+.xam1 {
+ border-top: #fff solid 1px;
+}
+.about_s{
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  height: 100%;
+  padding-right: 5px ;
+}
+.about_s img {
+  background-color: #fff;
+  border-radius: 150px;
+  width: 50%;
+  color: var(--neon);
+  filter: saturate(170%);
+  
+}
+.face, .folo, .fan{
+  text-align: center;
+}
+.face{
+  padding: 0;
+}
+.body_blog-padding{
+  margin-bottom: 30px;
+}
+.head_ab{
+  padding-top: 16px;
+}
+.join{
+  padding-top: 16px;
+}
+
+.about_s{
+ 
+  position: relative;
+  
+
+}
+.about_s {
+  position: sticky;
+  position: -webkit-sticky ;
+  top: 120px; 
+}
+
+@media (min-width: 1200px){
+  .body_blog-padding  {
+    padding: 0 5% !important;
+  }
+   
+  
+  
+}
+@media (max-width: 1200px){
+  .loadmore {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 450px;
+    
+  }
+  .tacgia, .hastag, .tieude, .sub{
+    margin-bottom: 0;
+  }
+  .them .btncode{
+    margin-top: 16px;
+  }
+}
+/* lg*/
+
+@media (max-width: 1199.9px) and (min-width: 992px){
+  .body_blog-padding  {
+    padding: 0 3% !important;
+  }
+  .tacgia, .hastag, .tieude, .sub {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.loadmore {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 350px;
+  
+}
+.about_s{
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  height: 100%;
+  padding-right: 5px ;
+}
+.them .btncode{
+  margin-top: 16px;
+}
+.content_body_blog .btncode{
+  margin-top: 16px;
+}
+}
+
+/* md */
+@media (max-width: 991px) and (min-width: 768px){
+  
+  .tacgia, .hastag, .tieude, .sub {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.loadmore {
+  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-left: 300px;
+  
+}
+.body_blog-padding  {
+  padding-right: 3% !important;
+}
+.about_s{
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  height: 100%;
+  padding-right: 15px ;
+}
+.tieude{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+}
+
+
+/* sm */
+
+@media (max-width: 767.9px) and (min-width: 576px){
+  
+  .tacgia, .hastag, .tieude, .sub {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.loadmore {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 200px;
+  
+}
+
+}
+
+/* m */
+@media (max-width: 575.9px) and  (min-width: 400px) {
+  
+  .tacgia, .hastag, .tieude, .sub {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.loadmore {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 130px;
+  
+}
+.tieude{
+  font-size: 22px;
+  font-weight: bold;
+}
+ 
+}
+
+@media (max-width:399.9px) and (min-width: 319px){
+
+ 
+}
+
